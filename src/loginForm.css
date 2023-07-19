@@ -1,0 +1,70 @@
+.form-container2 {
+  margin: 100px auto;
+  width: 1000px;
+  background: #f2ead6;
+  box-shadow: 0 5px 8px 0 rgb(63, 61, 61), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-content-left2 {
+  background: #351f31;
+  position: relative;
+  border-radius: 10px 0 0 10px;
+  top: 0px;
+  height: 600px;
+}
+
+.form-img2 {
+  width: 80%;
+  position: absolute;
+  height: 70%;
+  left: 50px;
+  top: 90px;
+}
+
+.form2 h1 {
+  color: #351f31;
+  margin-top: 10px;
+  font-family: "Lato", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 100px;
+  position: absolute;
+  left: 555px;
+  top: 80px;
+}
+
+.form-content-right-group2 {
+  background: #351f31;
+  margin-left: 1000px;
+  margin-right: 500px;
+  border-radius: 15px;
+  position: absolute;
+  top: 190px;
+  height: 150px;
+  width: 450px;
+  left: -475px;
+}
+
+.form-content-right2 {
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  background: #351f31;
+  border-radius: 100px;
+  top: 40px;
+}
+
+.form-input-login2 {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-left: 16px;
+  width: 80%;
+  position: absolute;
+  top: 400px;
+  left: 335px;
+  text-align: center;
+}

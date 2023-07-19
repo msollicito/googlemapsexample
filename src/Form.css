@@ -1,0 +1,183 @@
+.form-content-right p {
+  color: red;
+}
+
+.form-container {
+  margin: 100px auto;
+  width: 1000px;
+  background: #f2ead6;
+  box-shadow: 0 5px 8px 0 rgb(63, 61, 61), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.close-btn {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  font-size: 1.5rem;
+  z-index: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-content-left {
+  background: #351f31;
+  border-radius: 10px 0 0 10px;
+  position: relative;
+}
+
+.form-img {
+  width: 80%;
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-img-2 {
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-success {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 80px;
+  color: #fff;
+}
+
+.form1 {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content-right-group {
+  background: #351f31;
+  border-radius: 15px;
+  width: 450px;
+}
+
+.form-content-right {
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  background: #351f31;
+  border-radius: 100px;
+}
+
+.form h1 {
+  font-size: 1rem;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: rgb(248, 12, 12);
+}
+
+.form-inputs {
+  margin-bottom: 0.5rem;
+  width: 80%;
+}
+
+.form-inputs p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #f00e0e;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: black;
+}
+
+.form-input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+
+.form-input::placeholder {
+  color: white;
+  font-size: 12px;
+}
+
+.form-input-btn {
+  width: 40%;
+  height: 60px;
+  position: relative;
+  left: -90px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background: #351f31;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form-input-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+
+.form-input-login {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-left: 16px;
+  width: 80%;
+  position: relative;
+  top: -50px;
+  left: 90px;
+  text-align: center;
+}
+
+.form-input-login {
+  color: #27cdff;
+  font-weight: 600;
+}
+
+.email-label {
+  color: #f2ead6;
+  font-size: 20%;
+}
+
+.word-list {
+  font-size: 120%;
+  color: white;
+}
+
+.form1 h1 {
+  color: #351f31;
+  margin-top: 60px;
+  font-family: "Lato", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 100px;
+}
